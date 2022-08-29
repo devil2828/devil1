@@ -1,0 +1,13 @@
+import queue
+q=queue.PriorityQueue()
+q.put(10)
+q.put(60)
+q.put(20)
+q.put(40)
+q.put(40)
+print("The priority queue is:")
+print(q.get())
+print(q.get())
+print(q.get())
+print(q.get())
+print(q.get())

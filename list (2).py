@@ -1,0 +1,11 @@
+list1=[1,2,3,4,'veerendra']
+print(list1)
+list1.append(10)
+print(list1)
+a=list1.pop(2)
+print(a)
+print(list1)
+print(list1[0:2])
+print(list1[ : ])
+print(list1[1:])
+print(list1[ :3])

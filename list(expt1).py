@@ -1,0 +1,10 @@
+list1=[1,2,3,4,'python',12,12]
+print(list1)
+list1.append(5)
+print(list1)
+a=list1.pop(4)
+print(a)
+list2=[1,2,3,635,12,546,0]
+print(list2)
+print(list2.index(546))
+print(list1.count(12))
